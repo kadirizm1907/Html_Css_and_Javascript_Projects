@@ -31,15 +31,18 @@ h1 {
     height: 90%;
     padding: 1rem 2rem;
     align-items: center;
-    margin: 15px auto;}
+    margin: 15px auto;
+border-radius: 16px;}
 .btn{
         margin: 0.5rem auto;
+        
     }
 
 button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #016f32;
     width: 150px;
-    font-size: medium;
+    font-size: large;
     background: goldenrod;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -85,4 +88,19 @@ button {
     border-radius: 10px;
     margin-bottom: 0.8rem;
     
+}
+.results{
+
+    display: flex;
+    justify-content: left;
+    flex-flow: column;
+    align-items: center;
+}
+.results p{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    margin: 0.8rem 0;
+    flex-flow: row;
+    justify-content: left;
 }
