@@ -1,0 +1,236 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0.2em;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+
+}
+div.navbar .teamf{
+    position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    
+}
+
+#navbar{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    background-color: rgba(107, 79, 46, 0.418);
+    flex-wrap: wrap;
+    
+}
+#fb1{
+    width: 10rem;
+    flex-wrap: wrap;
+    font-size: larger;
+    
+
+}
+#bjk1{
+    width: 10rem;
+    flex-wrap: wrap;
+    font-size: larger;
+
+}
+#ts1{
+    width: 10rem;
+    flex-wrap: wrap;
+    font-size: larger;
+
+}
+#gs1{
+    width: 10rem;
+    flex-wrap: wrap;
+    font-size: larger;
+
+}
+.teamf span{
+    visibility: hidden;
+    flex-wrap: wrap;
+}
+#fb1:hover + #fbtext1{
+    visibility: visible;
+}
+#bjk1:hover + #bjktext1{
+    visibility: visible;
+}
+#ts1:hover + #tstext1{
+    visibility: visible;
+}
+#gs1:hover + #gstext1{
+    visibility: visible;
+}
+h1{
+    text-align: center;
+}
+div.navbar .teamFan{
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto;
+    box-shadow: currentColor(1em);
+    color: white;
+    
+    
+}
+.teamFan{
+    width: 260px;
+    flex-wrap: wrap;
+}
+
+div.teamf p:first-child{
+    background-image: linear-gradient(to left, rgb(16, 16, 206), yellow);
+    box-shadow: 3px 3px yellow, 6px 6px blue, 9px 9px yellow;
+
+}
+
+div.teamf p:nth-child(3){
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(0, 0, 0));
+    box-shadow: 3px 3px black, 6px 6px white, 9px 9px black;
+
+}
+div.teamf p:nth-child(5){
+    background-image: linear-gradient(to left, rgb(17, 21, 221), rgb(230, 15, 15));
+    box-shadow: 3px 3px rgb(230, 15, 15), 6px 6px rgb(11, 41, 207), 9px 9px rgb(233, 20, 20);
+}
+div.teamf p:nth-child(7){
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgba(255, 255, 0, 0.774));
+    box-shadow: 3px 3px yellow, 6px 6px red, 9px 9px yellow;
+
+}
+.teaminfo *div{
+    flex-flow: row;
+}
+.teaminfo{
+    
+    
+    background-color: rgba(39, 31, 31, 0.301);
+    /* align-items: center; */
+    flex-flow: column;
+    flex-wrap: wrap;    justify-content: left;
+    gap: 0.1rem;
+    width: 100%;
+    height: fit-content;
+    z-index: 2;
+    padding-bottom: 15rem;
+    
+    
+
+}
+#imgbjk:hover + #textbjk{
+    display: inline-block;
+    position: relative;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-height: max-content;
+    flex-flow: column;
+    padding: 10px;
+    box-shadow: 3px 3px black, 6px 6px white, 9px 9px black;
+    z-index: 1;
+}
+#imgfb:hover + #textfb{
+    display: inline-block;
+    position: relative;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-height: max-content;
+    flex-flow: column;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: 3px 3px yellow, 6px 6px blue, 9px 9px yellow;
+}
+#imgts:hover + #textts{
+    display: inline-block;
+    position: relative;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-height: max-content;
+    flex-flow: column;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(230, 15, 15), 6px 6px rgb(11, 41, 207), 9px 9px rgb(233, 20, 20);
+    z-index: 1;
+}
+#imggs:hover + #textgs{
+    /* display: inline-block; */
+    /* position: relative; */
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-height: max-content;
+    
+    padding: 10px;
+    box-shadow: 3px 3px yellow, 6px 6px red, 9px 9px yellow;
+    z-index: 1;
+    display: block;
+    
+    
+}
+.teaminfo p{
+    border: 1px solid rgba(47, 47, 48, 0.432);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    text-justify: inter-cluster;
+    text-align: justify;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-inline-start: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+    
+    
+}
+#textfb{
+    
+   display: none;
+}
+#textbjk{
+    
+    display: none;
+    
+}
+#textts{
+    
+    display: none;
+    
+}
+#textgs{
+    
+    display: none;
+    
+    
+}
+#FB{
+    text-align: center;
+    width: 100%;
+}
+#BJK{
+    text-align: center;
+    width: 100%;
+}
+#TS{
+    text-align: center;
+    width: 100%;
+}
+#GS{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
