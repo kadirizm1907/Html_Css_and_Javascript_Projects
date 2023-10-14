@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects-2(netflix)</title>
+</head>
+<body>
+   
+    <div id="container">
+        <main id="title">
+            <div id="title">
+                <h1>NET<span>FLIX</span> </h1>
+                <p> Thank you for signing up at Netflix. Tell us more about yourself</p>
+            </div>
+            <form id="description">
+            <section  class="name">
+                <label for="name">Name</label><br>
+                <input type="text" 
+                id="name" 
+                name="namebtn" 
+                value="" 
+                placeholder="Enter your name" required/>
+
+            </section><br>
+            <section  class="age">
+                <label for="age"> Age</label><br>
+                <input type="number" 
+                id="age" 
+                name="agebtn" 
+                value="" 
+                placeholder="Age" required min="0" max="70"/>
+
+            </section><br>
+
+            <section class="email">
+                <label for="email">E-mail</label><br>
+                <input type="email"
+                id="email" 
+                name="emailbtn" 
+                value="" 
+                placeholder="Enter your email" required/>
+            </section><br>
+            <section id="form" class="form">
+                <label for="">Content type</label><br>
+                <select name="content" id="form1">
+                    <option value="series">Series</option>
+                    <option value="Movies">Movies</option>
+                    <option value="documentary">Documentary</option>
+                </select>
+
+            </section><br>
+            <section class="content">
+                <label for=""> Movie type</label><br>
+                <input 
+                type="checkbox"
+                id="comedy" 
+                name="content"
+                value="comedy" />Comedy <br>
+                <input 
+                type="checkbox"
+                id="action" 
+                name="content"
+                value="Action" />Action <br>
+                <input 
+                type="checkbox"
+                id="romance" 
+                name="content"
+                value="Romance" checked/>Romance <br>
+
+            </section><br>
+            
+            <section  class="gender">
+                <!-- <label for="">Gender</label> <br>
+                <input 
+                type="radio" 
+                id="male"
+                name="gender"
+                />
+                <label class="gender" for="male">Male</label>
+                 <br>
+                 <input 
+                type="radio" 
+                id="female"
+                name="gender"
+                />
+                <label class="gender" for="female">Female</label>
+                 <br>
+                 <input 
+                 type="radio" 
+                 id="other"
+                 name="gender"
+                 />
+                <label class="gender" for="other">Other</label><br> -->
+
+
+                <label> Gender</label> <br>
+                <label> <input type="radio" name="gender"> Male</label><br>
+                <label> <input type="radio" name="gender"> Female</label>
+
+                
+            </section> <br>
+            <section id="feedback" class="feedback">
+                <label for=""> Feedback </label><br>
+                <textarea 
+                name="feedback"
+                id="feedback1"
+                cols="30"
+                rows="5"
+                style="resize: both;"
+                placeholder="Any comment"
+
+                ></textarea>
+                </section>
+            <section class="submit">
+                <button id="submit" type="submit">Submit</button>
+            </section>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
