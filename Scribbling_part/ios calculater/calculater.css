@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    margin: 150px auto;
+    background-color: rgb(0, 0, 0);
+    width: 38rem;
+    height: 69rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 15px 15px;
+    border-radius: 60px;
+
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(4,8rem) ;
+    grid-template-rows: repeat(8,8rem);
+    justify-content: center;
+    gap: 8px;
+    
+}
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.9rem;
+    font-weight: bold;
+    color: white; 
+    background-color: rgba(84, 76, 76, 0.608);
+    
+}
+.btn:hover{
+    background-color: rgba(186, 170, 141, 0.686);
+}
+.btn1{ 
+    color: black;
+    background-color: rgba(234, 239, 243, 0.576);
+    grid-column: 1/ span 1;
+    grid-row: 4 / span 1;
+}
+.btn2{
+    color: black;
+    background-color: rgba(234, 239, 243, 0.576);
+    grid-column: 2/ span 1;
+    grid-row: 4 / span 1;
+}
+.btn3{
+    color: black;
+    background-color: rgba(234, 239, 243, 0.576);
+    grid-column: 3/ span 1;
+    grid-row: 4 / span 1;
+}
+.btn4{
+    background-color: rgba(242, 182, 54, 0.886);
+    grid-column: 4/ span 1;
+    grid-row: 4 / span 1;
+}
+.btn5{
+    background-color: rgba(242, 182, 54, 0.886);
+    grid-column: 4/ span 1;
+    grid-row: 5 / span 1;
+}
+.btn6{
+    background-color: rgba(242, 182, 54, 0.886);
+    grid-column: 4/ span 1;
+    grid-row: 6 / span 1;
+}
+.btn7{
+    background-color: rgba(242, 182, 54, 0.886);
+    grid-column: 4/ span 1;
+    grid-row: 7 / span 1;
+}
+.btn8{
+    grid-column: 4/ span 1;
+    grid-row: 8 / span 1;
+}
+.btn9{
+    grid-column: 3/ span 1;
+    grid-row: 8 / span 1;
+}
+.btn10{
+    grid-column: 1/ span 2;
+    grid-row: 8 / span 1;
+    border-radius: 100px;
+    justify-content: left;
+    padding-left: 40px;
+}
+.btn11{
+    grid-column: 1/ span 1;
+    grid-row: 7 / span 1;
+}
+.btn12{
+    grid-column: 2/ span 1;
+    grid-row: 7 / span 1;
+}
+.btn13{
+    grid-column: 3/ span 1;
+    grid-row: 7 / span 1;
+}
+.btn14{
+    grid-column: 1/ span 1;
+    grid-row: 6 / span 1;
+}
+.btn15{
+    grid-column: 2/ span 1;
+    grid-row: 6 / span 1;
+}
+.btn16{
+    grid-column: 3/ span 1;
+    grid-row: 6 / span 1;
+}
+.btn17{
+    grid-column: 1/ span 1;
+    grid-row: 5 / span 1;
+}
+.btn18{
+    grid-column: 2/ span 1;
+    grid-row: 5 / span 1;
+}
+.btn19{
+    grid-column: 3/ span 1;
+    grid-row: 5 / span 1;
+}
+
