@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    
+}
+.container{
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 800px) {
+.header{
+    background-image: linear-gradient(to left, rgb(16, 16, 206), yellow);
+    box-shadow: 3px 3px yellow, 6px 6px blue, 9px 9px yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1px;
+
+}
+#nav1{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+     
+}
+#nav1 li{
+     text-decoration: none;
+     padding: 10px 20px;
+     text-align: center;
+     text-transform: none;
+     font-size: 2rem;
+     font-weight: bold;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+    width: 48rem;
+    height: 48rem;
+    background-image: url(./img/fb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+} 
+}
+
+#nav1 li:hover{
+    background-color: rgba(255, 255, 255, 0.487);
+    border-radius: 100px;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 600px){
+    .header{
+        background-image: linear-gradient(to left, rgb(255, 0, 0), rgba(255, 255, 0, 0.774));
+        box-shadow: 3px 3px yellow, 6px 6px red, 9px 9px yellow;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1px;
+        padding: 0.2rem;
+    
+    }
+    #nav1{
+        display: flex;
+        flex-flow: row nowrap;
+        list-style-type: none;
+         
+    }
+    #nav1 li{
+         text-decoration: none;
+         padding: 10px 20px;
+         text-align: center;
+         text-transform: none;
+         font-size: 2rem;
+         font-weight: bold;
+         flex-wrap: wrap;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    p{
+        width: 48rem;
+        height: 48rem;
+        background-image: url(./img/gs.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 1rem;
+    
+    }
+
+}
+@media screen and (max-width: 600px) and (min-width: 400px){
+    .header{
+        background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(0, 0, 0));
+    box-shadow: 3px 3px black, 6px 6px white, 9px 9px black;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1px;
+    
+    }
+    #nav1{
+        display: flex;
+        flex-flow: column nowrap;
+        list-style-type: none;
+         
+    }
+    #nav1 li{
+        text-decoration: none;
+         padding: 0.8rem 1rem;
+         text-align: center;
+         text-transform: none;
+         font-size: 2rem;
+         font-weight: bold;
+         color: rgb(23, 11, 61);
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    p{
+        width: 48rem;
+        height: 48rem;
+        background-image: url(./img/bjk.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 400px){
+    .header{
+        background-image: linear-gradient(to left, rgb(17, 21, 221), rgb(230, 15, 15));
+    box-shadow: 3px 3px rgb(230, 15, 15), 6px 6px rgb(11, 41, 207), 9px 9px rgb(233, 20, 20);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1px;
+    
+    }
+    #nav1{
+        display: flex;
+        flex-flow: column nowrap;
+        list-style-type: none;
+         
+    }
+    #nav1 li{
+         text-decoration: none;
+         padding: 0.8rem 1rem;
+         text-align: center;
+         text-transform: none;
+         font-size: 2rem;
+         font-weight: bold;
+         color: beige;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    p{
+        width: 48rem;
+        height: 48rem;
+        background-image: url(./img/ts.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 0;
+        margin: 0 1rem;
+    
+    }
+
+}
