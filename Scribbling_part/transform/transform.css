@@ -12,7 +12,9 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    /* opacity: 0.3; */
+    opacity: 1;
+    gap: 8px;
+    flex-wrap: wrap;
   
     
 }
@@ -47,6 +49,8 @@ h1{
    
 
 
+}.main .container div{
+    flex-wrap: wrap;
 }
 .container > :first-child {
     width: 100%;
@@ -60,30 +64,57 @@ h1{
     width: 100%;
     height: 20rem;
     display: grid;
-    grid-template-columns: 10rem 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     font-size: 5rem;
     gap: 1px;
     padding: 0;
     margin: 0.2rem;
+    flex-wrap: wrap;
+    object-fit: cover;
     
     
 }
 .content1{
-    grid-column: 1 / span 1;
+    grid-column: 1 / span 2;
     grid-row: 1/ span 1;
     display: flex;
     flex-direction: column;
     background-color: rgba(112, 24, 24, 0.235);
     border-radius: 40px;
-   
-    
-
+}
+.content1:hover{
+    opacity:  1;
+    transform: scale(110%);
+}
+.content2:hover{
+    opacity:  1;
+    transform: scale(110%);
+}
+.content3:hover{
+    opacity:  1;
+    transform: scale(110%);
+}
+.content4:hover{
+    opacity:  1;
+    transform: scale(110%);
+}
+.content5:hover{
+    opacity:  1;
+    transform: scale(110%);
+}
+.content6:hover{
+    opacity:  1;
+    transform: scale(110%);
+}
+.content7:hover{
+    opacity:  1;
+    transform: scale(110%);
 }
 .content2{
-    grid-column: 2 / span 1;
-    grid-row: 1/ span 1;
+    grid-column: 1 / span 2;
+    grid-row: 3/ span 1;
     display: flex;
     flex-direction: column;
     background-color: rgba(112, 24, 24, 0.235);
@@ -131,6 +162,16 @@ h1{
     
 
 }
+.content7{
+    grid-column: 3 / span 1;
+    grid-row: 3/ span 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(112, 24, 24, 0.235);
+    border-radius: 40px;
+    
+
+}
 #icon{
     width: 100%;
     
@@ -144,13 +185,46 @@ h1{
     
 }
 #icon i{
+    
+    
+    margin: 0.6rem;
+    object-fit: cover;
+    width: 5rem;
+    color: rgba(9, 59, 59, 0.728);
     background-color: rgba(46, 54, 54, 0.331);
     background-size: cover;
     border: hidden;
     border-radius: 90px;
-    margin: 0.6rem;
-    object-fit: cover;
-    width: 7rem;
-    color: rgba(30, 132, 132, 0.854);
-    padding: 0.2rem 0.3rem;
+    justify-content: center;
+}
+
+#facebook{
+    transition: all 1s ease-in-out;
+}
+#facebook:hover{
+    transform: translateX();
+    color: rgb(13, 13, 230);
+    padding-left: 2rem;
+    background-color: rgba(123, 226, 103, 0.762);
+   
+}
+.fa-instagram{
+    transition: all 1s ease-in-out;
+}
+
+
+#instagram:hover{
+    transform: translateX();
+    color: rgb(13, 13, 230);
+    padding-left: 2rem;
+    background-color: rgba(124, 226, 103, 0.791);
+}
+.fa-youtube{
+    transition: all 1s ease-in-out;
+}
+#youtube:hover{
+    transform: translateX();
+    color: rgb(13, 13, 230);
+    padding-left: 1.5rem;
+    background-color: rgba(124, 226, 103, 0.791);
 }
