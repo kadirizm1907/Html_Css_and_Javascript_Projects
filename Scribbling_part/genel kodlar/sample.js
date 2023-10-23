@@ -18,9 +18,8 @@ const sumOfsalary = salary.reduce((sum,sal) => sum + sal, 0)
 console.log("total:", sumOfsalary)
 
 let result 
-const sumOfsalary1 = salary.reduce((sum,sal, i) =>{
-  result = `${i} ${sum + sal}`
-  console.log(result)
+const sumOfsalary1 = salary.reduce((sum,sal, i) =>{ 
+  console.log(`${i} ${sum + sal}`)
  return sum + sal
 } )
 console.log("total:", sumOfsalary1)
@@ -36,3 +35,11 @@ console.log(multply)
 
 const zamliMaasToplami = salary.filter((s) => s>= 9000 && s < 15000).map((s) => s * 1.2).reduce((sum,salaries) => sum + salaries)
 console.log("Zamli maas toplami =", zamliMaasToplami)
+
+
+
+
+
+//? objects
+
+
