@@ -148,14 +148,14 @@ opacity: 0.5;
 
 /*! -------------- 5- COURSES SECTION ------------ */
 
-.img-thumbnail {
+/* .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
     border: 1px solid var(--bs-border-color);
     border-radius: 0.375rem;
     max-width: 100%;
     height: auto;
-}
+} */
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -167,5 +167,6 @@ section#courses .nav-item .nav-link.active {
 }
 
 /*! -------------- 6- CONTACT SECTION ------------ */
+
 
 /*! -------------- 7- FOOTER --------------------- */
