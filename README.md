@@ -46,7 +46,7 @@ https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/ios_calculater/
 
                                                                             Project-11
                                                                             
-https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/mediaQuery/
+https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/mediaQuery
 
                                                                             Project-12
                                                                             
