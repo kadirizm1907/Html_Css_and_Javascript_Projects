@@ -12,7 +12,7 @@ https://kadirizm1907.github.io/Myprojects_all/p-9_team_website/
 Project-6
 https://kadirizm1907.github.io/Myprojects_all/p-10_ages-stage/
 Project-7
-https://kadirizm1907.github.io/Myprojects_all/P-11_Clarusway_path/
+https://kadirizm1907.github.io/Myprojects_all/p-12_campingStore
 Project-8
 https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/arrays/
 Project-9
@@ -24,4 +24,4 @@ https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/mediaQuery/
 Project-12
 https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/transform/
 Project-13
- https://kadirizm1907.github.io/Myprojects_all/p-12_campingStore
+
