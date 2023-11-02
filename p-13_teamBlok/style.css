@@ -1,0 +1,115 @@
+
+
+#button{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    justify-items: center;
+
+}
+
+section .card-group .card:nth-child(1){
+    background-image: url(./img/fb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 10px 10px 55px rgba(90, 15, 15, 0.5);
+    background-origin: content-box;
+    padding: 2rem;
+    
+
+}
+section .card-group .card:nth-child(2){
+    background-image: url(./img/gs.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 10px 10px 55px rgba(90, 15, 15, 0.5);
+    padding: 2rem;
+    background-origin: content-box;
+
+}
+section .card-group .card:nth-child(3){
+    background-image: url(./img/bjk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 10px 10px 55px rgba(90, 15, 15, 0.5);
+    padding: 2rem;
+    background-origin: content-box;
+
+}
+section .card-group1 .card:nth-child(1){
+   
+    box-shadow: inset 10px 10px 55px rgba(200, 255, 3, 0.967);
+    padding: 2rem;
+    
+
+}
+section .card-group1 .card:nth-child(2){
+    box-shadow: inset 10px 10px 55px rgb(1, 22, 250);
+    padding: 2rem;
+
+}
+section .card-group1 .card:nth-child(3){
+    
+    box-shadow: inset 10px 10px 55px rgba(200, 255, 3, 0.967);
+    padding: 2rem;
+   
+
+}
+section .card-group1 .card:nth-child(4){
+   
+    box-shadow: inset 10px 10px 55px rgb(1, 22, 250);
+    padding: 2rem;
+}
+section .card-group2 .card:nth-child(1){
+   
+    box-shadow: inset 10px 10px 55px rgba(200, 255, 3, 0.967);
+    padding: 2rem;
+    
+
+}
+section .card-group2 .card:nth-child(2){
+    box-shadow: inset 10px 10px 55px rgb(250, 1, 1);
+    padding: 2rem;
+
+}
+section .card-group2 .card:nth-child(3){
+    
+    box-shadow: inset 10px 10px 55px rgba(200, 255, 3, 0.967);
+    padding: 2rem;
+   
+
+}
+section .card-group2 .card:nth-child(4){
+   
+    box-shadow: inset 10px 10px 55px rgb(250, 1, 1);
+    padding: 2rem;
+}
+section .card-group3 .card:nth-child(1){
+   
+    box-shadow: inset 10px 10px 55px rgba(0, 0, 0, 0.967);
+    padding: 2rem;
+    
+
+}
+section .card-group3 .card:nth-child(2){
+    box-shadow: inset 10px 10px 55px rgb(255, 255, 255);
+    padding: 2rem;
+
+}
+section .card-group3 .card:nth-child(3){
+    
+    box-shadow: inset 10px 10px 55px rgba(0, 0, 0, 0.967);
+    padding: 2rem;
+   
+
+}
+section .card-group3 .card:nth-child(4){
+   
+    box-shadow: inset 10px 10px 55px rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+span{
+    color: red;
+}
+
