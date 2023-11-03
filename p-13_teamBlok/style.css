@@ -12,17 +12,15 @@ section .card-group .card:nth-child(1){
     background-image: url(./img/fb.png);
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: inset 10px 10px 55px rgba(90, 15, 15, 0.5);
+    box-shadow: inset 10px 10px 55px rgb(0, 26, 255);
     background-origin: content-box;
     padding: 2rem;
-    
-
 }
 section .card-group .card:nth-child(2){
     background-image: url(./img/gs.png);
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: inset 10px 10px 55px rgba(90, 15, 15, 0.5);
+    box-shadow: inset 10px 10px 55px rgba(255, 0, 0, 0.994);
     padding: 2rem;
     background-origin: content-box;
 
@@ -31,7 +29,7 @@ section .card-group .card:nth-child(3){
     background-image: url(./img/bjk.png);
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: inset 10px 10px 55px rgba(90, 15, 15, 0.5);
+    box-shadow: inset 10px 10px 55px rgba(0, 0, 0, 0.967);
     padding: 2rem;
     background-origin: content-box;
 
