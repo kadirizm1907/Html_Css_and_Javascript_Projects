@@ -2,11 +2,11 @@
 
 let rastgeleSayi = Math.ceil(Math.random() * 10) 
 document.getElementById("gonder").onclick = function(){
-    letyazilanSayi = document.getElementById("bizyazdik")
-    if (bizimSayi == rastgeleSayi){
+    let yazilanSayi = document.getElementById("bizyazdik")
+    if (yazilanSayi == rastgeleSayi){
         alert("tebrikler")
     }
-        else if(bizimSayi > rastgeleSayi){
+        else if(yazilanSayi > rastgeleSayi){
             alert("kucuk deger yaz")
         }
         else{
