@@ -8,7 +8,8 @@ let mesaj = document.querySelector(".msg")
 //? skoru index html den cekebilirdik. ama cok kullanacagimiz icin bu daha cok tercih edilen yol.
 let skor = 10 ;
 
-let enYuksekSkor = localStorage.getItem("top-score")  || 0;
+let enYuksekSkor = 0
+document.querySelector(".top-score").textContent = enYuksekSkor
 
 //? Her check butonuna basildiginda yapilacaklar
 
@@ -27,8 +28,7 @@ document.querySelector(".check").addEventListener("click", ()=> {
 
       //?top skor kontrolu 
         if (skor > enYuksekSkor){
-            localStorage.setItem("top-score", skor)
-            enYuksekSkor = skor;
+            enYuksekSkor = skor
             document.querySelector(".top-score").textContent = enYuksekSkor
 
         }
@@ -74,20 +74,9 @@ document.querySelector(".check").addEventListener("click", ()=> {
 //? Enter ile basma
 
 document.addEventListener("keydown", function(event){
-    if (event.key === "enter"){
-         document.querySelector(".check").click()
-    }    
-});
+    if (event.key === "enter"){}
+        document.querySelector(".check").click()
+}
+)
 
-document.querySelector(".check").addEventListener("click", () =>{
-    tahmin = document.querySelector(".guess").value
-
-    const tahminSayi = parseInt(tahmin);
-
-        if (tahminSayi >=1 && tahminSayi <==20 && !isNaN(tahminSayi) ){
-
-        }else {
-                mesaj.textContent = "gecersiz sayi girdini, 1 ile 10 arasinda bir sayi giriniz"
-                skor ++
-            }
-        })
+localStorage.setItem("kadir", 5)
