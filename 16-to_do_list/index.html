@@ -15,10 +15,12 @@
 </head>
 <body>
     <section>
-      <h1>Happy Wednesday:neutral_face:</h1>
-        <div class="wrapper">
+        <div class="images">
+            <img src="images/codebrakers.jpeg" id=codebreakers alt="">
+        </div>
+      <h1>Happy Tuesday :neutral_face:</h1>
           <div class="input-container">
-            <input type="text" id="yeniGorev" placeholder= ":writing_hand: Yeni görev ekleyin...">
+            <input type="text" id="yeniGorev" placeholder= "✍ Yeni görev ekleyin...">
             <button onclick="gorevEkle()">+</button>
               <!-- <i class="fa-solid fa-circle-plus"></i> -->
             </button>
@@ -26,7 +28,6 @@
           <ul class="gorevListesi" id="gorevListesi">
             <!-- Burada görevler listelenecek -->
         </ul>
-        </div>
         <footer>
             <div class="footer">
                 <h2 >Made with :drop_of_blood: by <span style="color: aqua;"> Mesut</span> </h2>
@@ -34,45 +35,5 @@
             </div>
            </footer>
       </section>
-   <script >
-      document.getElementById("yeniGorev").addEventListener("keyup", function(event) {
-          if (event.key === "Enter") {
-              gorevEkle();
-          }
-      });
-      function gorevEkle() {
-          var yeniGorev = document.getElementById("yeniGorev").value;
-          if (yeniGorev.trim() === "") {
-              alert("Boş bir görev ekleyemezsiniz.");
-          } else {
-              var gorevListesi = document.getElementById("gorevListesi");
-              var li = document.createElement("li");
-              var tick = document.createElement("i");
-              var deleteIcon = document.createElement("i");
-              var gorevText = document.createElement("span");
-              var completed = false; // Görev tamamlandı mı?
-              li.classList.add("animate");
-              tick.classList.add("fas", "fa-light", "fa-square-check", "tick");
-              deleteIcon.classList.add("fas", "fa-times", "delete");
-              gorevText.textContent = yeniGorev;
-              tick.addEventListener("click", function() {
-                  completed = !completed;
-                  li.classList.toggle("completed", completed);
-                  tick.classList.toggle("fa-check-square", completed);
-                  tick.classList.toggle("fa-square", !completed);
-              });
-              deleteIcon.addEventListener("click", function() {
-                  li.remove();
-              });
-              li.appendChild(tick);
-              li.appendChild(gorevText);
-              li.appendChild(deleteIcon);
-              li.addEventListener("animationend", function() {
-                  li.classList.remove("animate");
-              });
-              gorevListesi.prepend(li);
-              document.getElementById("yeniGorev").value = "";
-          }
-      }
-  </script>
+   <script src="app.js"></script>
 </body>
