@@ -54,4 +54,4 @@ https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/mediaQuery
 https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/transform/
 
                                                                             Project-13
-
+https://kadirizm1907.github.io/Myprojects_all/p-13_teamBlok/
