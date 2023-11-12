@@ -10,3 +10,86 @@ filter: invert(0%) sepia(100%) saturate(2190%) hue-rotate(212deg) brightness(98%
 filter: invert(20%) sepia(96%) saturate(1310%) hue-rotate(236deg) brightness(91%) contrast(98%); /*purple
 filter: invert(71%) sepia(42%) saturate(5650%) hue-rotate(1deg) brightness(104%) contrast(102%); /*orange
 }
+<img id="man" src="./img/mm.png"  alt="icon">   
+
+// Html yapısını oluşturunuz. (İsteyenler verilen html yapısını da kullanabilirler.)
+// Arka plan rengi vereceğiniz elementi yakalayınız.
+const main = document.querySelector(".bgDiv")
+// main.computedStyleMap.backgroundColor = "brown"
+// Event tanımlayacağınız buton elementlerini yakalayıp ilgili butona ilgili eventı tanımlayınız.
+const btnClick =document.querySelector ("btn-click")
+const btnOver = document.querySelector ("btn-over")
+// Butona tıklanıldığnda veya hover olduğunda arka plan rengini değiştirecek olan fonksiyonu yazınız.
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+// Arka plan rengini değiştiren fonksiyon
+function changeBackgroundColor() {
+    const color = getRandomColor();
+    document.body.style.backgroundColor = color;
+    document.getElementById("colorText").textContent = color;
+}
+// Düğmeye tıklanıldığında veya üzerine gelindiğinde arka plan rengini değiştir
+const changeColorButton = document.querySelector('.btn-click');
+changeColorButton.addEventListener('click', changeBackgroundColor);
+const mouseOverButton = document.querySelector('.btn-over');
+mouseOverButton.addEventListener('mouseover', changeBackgroundColor);
+// const changecolor = () => {
+//     const color = [
+//       0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"
+//     ];
+//     let renk = "#";
+//     for (let i = 0; i < 6; i++) {
+//       renk += color[Math.floor(Math.random() * color.length)];
+//     }
+//     return renk;
+//   };
+//   const clickButton = document.querySelector(".btn-click");
+//   const mouseoverButton = document.querySelector(".btn-over");
+//   const body = document.body;
+//   clickButton.addEventListener("click", () => (body.style.backgroundColor = changecolor()));
+//   mouseoverButton.addEventListener("mouseover", () => (body.style.backgroundColor = changecolor()));
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Bg Color</title>
+  </head>
+  <body>
+    <main class="bgDiv">
+      <section class="colorDiv">
+        <h2>
+          Color <sup id="copy"><i class="fa-regular fa-clipboard"></i></sup>
+        </h2>
+        <input type="color" name="" id="colorInput" />
+        <p id="colorText"></p>
+      </section>
+      <section class="btn-div">
+        <div>
+          <button class="btn btn-click">Click!</button>
+        </div>
+        <div>
+          <button class="btn btn-over">Mouseover!</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
