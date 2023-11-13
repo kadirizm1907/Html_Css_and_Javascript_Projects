@@ -188,7 +188,7 @@ body{
     z-index: 1;
 }
 #woman4{ 
-    filter: invert(100%) sepia(96%) saturate(6977%) hue-rotate(101deg) brightness(40%) contrast(105%);
+    filter: invert(100%) sepia(96%) saturate(6977%) hue-rotate(101deg) brightness(65%) contrast(105%);
     
     text-shadow: #625b5b63;
     background-image: url(./img/Picture1.png);
