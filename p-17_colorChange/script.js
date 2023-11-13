@@ -9,13 +9,14 @@
 // let pink1 = "filter: invert(21%) sepia(72%) saturate(3636%) hue-rotate(293deg) brightness(113%) contrast(137%);";
 // let purple1 = "filter: invert(20%) sepia(96%) saturate(1310%) hue-rotate(236deg) brightness(91%) contrast(98%);";
 //  let orange1 = "invert(71%) sepia(42%) saturate(5650%) hue-rotate(1deg) brightness(104%) contrast(102%);";
-const obj1 = document.querySelectorAll(".man");
+const obj1 = document.querySelectorAll("#mn");
 // let bg = [red1, yellow1, turkuaz1, blue1 ];
  const bg = Math.floor(Math.random() * obj1.length);
-//  document.querySelector("#woman1").style.filter = "grayscale(1000%)";
- document.querySelector('#clrw').addEventListener('click', ()=>{
-    const obj1 = document.querySelectorAll(".man");
+ document.querySelector("#mn").style.backgroundColor = bg;
+ document.querySelector('#clrm').addEventListener('click', ()=>{
+    const obj1 = document.querySelectorAll(".#mn");
     const bg = Math.floor(Math.random() * obj1.length);
+    document.querySelector("#mn").style.backgroundColor = bg;
 })
 
 
@@ -44,6 +45,24 @@ function randomNumber() {
 
 
     document.querySelector('main').style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")"; 
+}
+function randomNumber1() {
+
+    let r = Math.round(Math.random() * 255);
+    let g = Math.round(Math.random() * 255);
+    let b = Math.round(Math.random() * 255);
+
+
+    document.querySelector('#mn').style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")"; 
+}
+function randomNumber2() {
+
+    let r = Math.round(Math.random() * 255);
+    let g = Math.round(Math.random() * 255);
+    let b = Math.round(Math.random() * 255);
+
+
+    document.querySelector('#wmn').style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")"; 
 }
 console.log(randomNumber)
 
