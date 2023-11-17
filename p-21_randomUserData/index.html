@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="randomUser.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Random User Data</title>
 </head>
+
 <body>
     <h1>Chose Random Users Data</h1>
-    <section id="users">
+    <div class="user-profile">
 
-    </section>
-    <button title="CHANG" type="button" id="btn" value="">CHANCE</button>
+        <div class="profile-top">
+            <img id="image" src="#" alt="">
+            <div class="profile-info">
+                <span id="name">Name</span>
+                <span>|</span>
+                <span id="gender">Gender</span>
+            </div>
+
+        </div>
+        <div class="profile-bottom">
+            <div class="profile-info">
+                <span class="material-symbols-outlined">alternate_email</span>
+                <span id="e-mail">E-mail</span>
+            </div>
+            <div class="profile-info">
+                <span class="material-symbols-outlined">call</span>
+                <span id="ephone">Phone</span>
+            </div>
+            <div class="profile-info">
+                <span class="material-symbols-outlined">face</span>
+                <span id="age">Age</span>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <button title="CHANG" type="button" id="btn" value="" onclick="getRandomUser()">Generate</button>
 
 
 
     <script src="randomUser.js">Change</script>
 </body>
+
 </html>

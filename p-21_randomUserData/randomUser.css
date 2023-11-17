@@ -1,51 +1,93 @@
 
-body{
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin: auto;
-    padding-top: 2rem;
+}
+body{
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-section{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    border: 2px solid blue;
-    border-radius: 15px;
-    width: 30rem;
-    height: 55vh;
-   
-
-}
-.usr{
-    border: 2px solid blue; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex; 
-    position: inherit;
-}
-.usr *{
-    border: 2px solid blue; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex; 
-    
+body::before{
+    content: '';
+    position: absolute; 
+    top: 0 ;
+    left: 0 ;
+    right: 0 ;
+    bottom: 0 ;
+    background-color: black;
+    opacity: 0.8;
+    z-index: -1;
 }
 
 button{
     margin-top: 1rem;
-    text-transform: capitalize;
+    outline: none;
+    border: none;
+    padding: 1rem;
     font-size: large;
-    color: white;
-    width: 6rem;
-    height: 2rem;
-    border: 2px solid seagreen;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(22, 22, 128);
     border-radius: 20px;
-    background-color: blue;
+    cursor: pointer;
+    box-shadow: -2px 0px 8px 2px rgba(51,116,255,0.88);
+    transition: 0.5s ease;
     
+}
+button:hover{
+    box-shadow: inset 0px 0px 13px 3px #4580FF;
+}
+.user-profile{
+    background-color: bisque;
+    margin-top: 6%;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgb(from black 50 20 30);
+}
+.profile-top{
+    background: linear-gradient(to right, blue, purple);
+    padding: 1rem;
+    text-align: center;
+    color: bisque;
+}
+.profile-top img{
+    border-radius: 50%;
+    border: 3px solid wheat;
+}
+.profile-top .profile-info{
+    margin-top: 1rem;
+    
+}
+.profile-bottom{
+    padding: 3rem 3rem 1rem 3rem;
+
+}
+.profile-bottom .profile-info{
+    width: auto;
+    padding: 1rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: -2px 0px 8px 2px rgba(51,116,255,0.88);
+
+
+}
+.profile-bottom .profile-info .material-symbols-outlined{
+margin-right: 0.5rem;
+color: grey;
+}
+.profile-bottom .profile-info:hover{
+    box-shadow: inset 0px 0px 13px 3px #4580FF;
 }
