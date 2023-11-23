@@ -103,14 +103,16 @@ const harcamayiDomaYaz = ({ id, miktar, tarih, alan }) => {
     const appendTd = (content) => {
         const td = document.createElement("td");
         td.textContent = content;
+        td.className = "bg-info bg-opacity-10 fw-bold text-white "
         return td;
     }
     // tr elementinin son td sini oluşturur.
     const createLastTd = () => {
         const td = document.createElement("td");
+        td.className = "bg-info bg-opacity-10"
         const iElement = document.createElement("i");
         iElement.id = id;
-        iElement.className = "fa-solid fa-trash-can text-danger"
+        iElement.className = "fa-regular fa-trash-can fa-fade text-white "
         iElement.type = "button";
         td.appendChild(iElement);
         return td;
@@ -157,6 +159,7 @@ harcamaBody.addEventListener("click", (e) => {
 
     if (e.target.classList.contains("fa-trash-can")) {
         e.target.parentElement.parentElement.remove()
+        
     }
     //silinen harcamanın id sini alır
     const id = e.target.id
