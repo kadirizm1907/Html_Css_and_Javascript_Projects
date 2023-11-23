@@ -1,0 +1,11 @@
+
+
+#popup::backdrop{
+background: black;
+}
+#popup{
+    background: black;
+}
+dialog{
+    width: %;
+}
