@@ -147,7 +147,7 @@ const hesaplaVeGuncelle = () => {
 
     //giderler toplamını bul
     const giderler = harcamaListesi.reduce(
-        (toplam, harcama) => toplam + Number(harcama.miktar).toFixed(2), 0
+        (toplam, harcama) => toplam + Number(harcama.miktar), 0
     )
     giderinizTd.innerText = new Intl.NumberFormat().format(giderler) //gider toplamını ekrana yaz
     kalanTd.innerText = new Intl.NumberFormat().format(gelirler - giderler)
