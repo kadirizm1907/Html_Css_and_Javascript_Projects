@@ -27,8 +27,14 @@ const miktarInput = document.getElementById("miktar")
 //harcama tablosu
 const harcamaBody = document.getElementById("harcama-body")
 const temizleBtn = document.getElementById("temizle-btn")
+//popup butonlari
+const closeBtn = document.getElementById("closeBtn");
+const popup = document.getElementById("popup");
 
 
+temizleBtn.addEventListener("click", ()=> {
+ popup.show();   
+})
 //gelir Ekle Formu
 
 ekleFormu.addEventListener("submit", (e) => {
@@ -141,7 +147,7 @@ const hesaplaVeGuncelle = () => {
 
     //giderler toplamını bul
     const giderler = harcamaListesi.reduce(
-        (toplam, harcama) => toplam + Number(harcama.miktar), 0
+        (toplam, harcama) => toplam + Number(harcama.miktar).toFixed(2), 0
     )
     giderinizTd.innerText = new Intl.NumberFormat().format(giderler) //gider toplamını ekrana yaz
     kalanTd.innerText = new Intl.NumberFormat().format(gelirler - giderler)
@@ -151,7 +157,7 @@ const hesaplaVeGuncelle = () => {
     // console.log(borclu)
 
     kalanTd.classList.toggle('text-danger', borclu)
-    kalanTh.classList.toggle('text-danger', borclu)
+ 
 }
 
 harcamaBody.addEventListener("click", (e) => {
@@ -178,7 +184,7 @@ harcamaBody.addEventListener("click", (e) => {
 })
 
 temizleBtn.addEventListener("click", () => {
-    if (confirm('Silmek istediğinize emin misiniz?')) {
+        popup.show()
         harcamaListesi = [] //tüm harcamaları listeden siler
         gelirler = 0 //geliri sıfırlar
         // localStorage.clear() // tüm local storage siler
@@ -187,4 +193,10 @@ temizleBtn.addEventListener("click", () => {
         harcamaBody.innerHTML = "" // DOM dan harcamaları siler
         hesaplaVeGuncelle() //silindikten sonra yeniden hesapla
     }
-})
+)
+closeBtn.addEventListener("click", () => {
+    popup.close()
+  
+}
+)
+

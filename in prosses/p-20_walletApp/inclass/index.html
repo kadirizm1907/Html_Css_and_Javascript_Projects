@@ -66,17 +66,17 @@
       </tbody>
     </table>
 
-    <table id="sonuc-tablosu" class="table table-bordered table-hover table-striped mt-4 text-center w-50 ms-auto">
-      <tbody class="text-end bg-primary ">
-        <tr>
-          <th>Your Income (💰) :</th>
+    <table id="sonuc-tablosu" class="table table-bordered table-hover mt-4 text-center w-50 ms-auto">
+      <tbody class="text-center">
+        <tr class="table-info">
+          <th >Your Income (💰) :</th>
           <td id="geliriniz" style="width: 100px;">0</td>
         </tr>
-        <tr>
+        <tr class="table-secondary">
           <th>Your Expense (💰) :</th>
           <td id="gideriniz">0</td>
         </tr>
-        <tr>
+        <tr class="table-primary">
           <th id="kalanTh">Remaining (💰) :</th>
           <td id="kalan">0</td>
         </tr>
@@ -84,9 +84,15 @@
     </table>
 
     <section class="text-center">
-      <button id="temizle-btn" class="btn btn-danger text-black fw-bold ">
+      <button type="submit" id="temizle-btn" class="btn btn-danger text-black fw-bold ">
         Reset
       </button>
+      <dialog id="popup" class="popup border container text-dark fw-bolder mt-5 ms-4 border-2 rounded-5 top-0 position-absolute bg-danger ">
+        <img src="./recycle.png" alt="">
+        <h2>Are you sure???</h2>
+        <p>You are about to delete all data that you write.</p>
+        <button id="closeBtn" class="border p-2 text-white fw-bolder mt-5 ms-4 border-2 rounded-3 top-0  bg-dark" type="button"> I understand OK</button>
+      </dialog>
     </section>
   </main>
 
