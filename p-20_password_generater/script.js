@@ -117,8 +117,8 @@ function generateRandomPassword(lenght = 10) {
 }
 generateRandomPassword();
 const button = document.getElementById("password");
-const p = document.querySelector("p");
+const p = document.querySelector("input");
 button.addEventListener("click", () => {
   const paralo = generateRandomPassword();
-  p.innerText = paralo;
+  p.value = paralo;
 });
