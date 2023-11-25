@@ -61,11 +61,11 @@
 
 
 
-function generateRandomPassword(lenght = 10) {
+function generateRandomPassword(remainingLength = 10) {
   const upperCases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const lowerCases = "abcdefghijklmnopqrstuvwxyz";
   const numbers = "0123456789";
-  const symbols = "!@#$%^&*()_+~|}{[]:;?><,./-=";
+  const symbols = "!@#$%^&*(_+~}{:;?><,./-=";
   //? en az 1 küçük harf, 1 büyük harf, 3 rakam, ve 2 tane sembol
   const requiredLowerCase =
     lowerCases[Math.floor(Math.random() * lowerCases.length)];
@@ -82,9 +82,6 @@ function generateRandomPassword(lenght = 10) {
   const randomNumber2 = numbers.charAt(
     Math.floor(Math.random() * numbers.length)
   );
-  const randomSymbol2 = symbols.charAt(
-    Math.floor(Math.random() * symbols.length)
-  );
   const randomSymbol3 = symbols.charAt(
     Math.floor(Math.random() * symbols.length)
   );
@@ -94,13 +91,12 @@ function generateRandomPassword(lenght = 10) {
     randomNumber1 +
     randomNumber2 +
     randomSymbol1 +
-    randomSymbol2 +
     randomSymbol3;
   console.log(gerekliKarakterler);
   // Geri kalan karakterleri rastgele seçelim
   const remainingCharacters = upperCases + lowerCases + numbers + symbols;
   let password = "";
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i <= 3; i++) {
     const randomIndex = Math.floor(Math.random() * remainingCharacters.length);
     password += remainingCharacters.charAt(randomIndex);
   }
