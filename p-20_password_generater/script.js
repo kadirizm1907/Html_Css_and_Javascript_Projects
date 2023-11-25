@@ -114,6 +114,7 @@ function generateRandomPassword(lenght = 10) {
     .join("");
   console.log(password);
   return password;
+  
 }
 generateRandomPassword();
 const button = document.getElementById("password");
@@ -121,4 +122,21 @@ const p = document.querySelector("input");
 button.addEventListener("click", () => {
   const paralo = generateRandomPassword();
   p.value = paralo;
+  
 });
+
+
+function copy(){
+  const copyText = document.getElementById("passText")
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  p.removeEventListener("click", ()=> {
+    generateRandomPassword()
+
+    })
+   copy()
+}
+const date = new Date();
+date.setDate(date.getDate() + 0);
+document.getElementById("date").innerHTML = date;

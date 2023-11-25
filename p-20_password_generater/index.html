@@ -19,18 +19,18 @@
         <div class="card-header text-bg-info fw-bolder fs-5">
             Need high level password?
         </div>
-        <div class="card-body bg-info-subtle d-flex align-content-center justify-content-center">
+        <div class="card-body bg-info-subtle container ">
             <h1>Password Generator</h1>
             <div class="d-flex justify-content-center align-items-center mb-1">
-                <input title="password?" class="card-text text-bg-success me-1 text-black bg-opacity-25"></input>
-                <button class="fa-regular text-bg-danger me-1 text-black bg-opacity-25 fa-copy" title="button" type="submit" ></button>
+                <input id="passText" title="password?" class="card-text text-bg-success me-1 text-black bg-opacity-25"></input>
+                <button class="fa-regular text-bg-danger me-1 text-black bg-opacity-25 fa-copy" title="button" type="submit" onclick="copy()" ></button>
             </div>
 
             <button class="btn btn-outline-primary" id="password">Generate Password</button>
 
         </div>
         <div class="card-footer text-body-secondary text-bg-info">
-            2 days ago
+          <p id="date"></p>
         </div>
     </div>
 
