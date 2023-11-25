@@ -70,6 +70,6 @@ https://kadirizm1907.github.io/Myprojects_all/p-20_walletApp/
 https://kadirizm1907.github.io/Myprojects_all/p-20_password_generater
                                                                           
 
-                                                                           Project-16
+                                                                           Project-17
 
 https://kadirizm1907.github.io/Myprojects_all/p-17_colorChange/
