@@ -63,8 +63,8 @@ const image = document.getElementById("image");
 name.innerText = `${user.name.title} ${user.name.first} ${user.name.last}`
 gender.innerText = `${user.gender}`
 email.innerText = `${user.email}`
-phone.innerText = `${user.phone}`
-age.innerText = `${user.dob.age}`
+phone.innerText = `Tel (${user.phone})`
+age.innerText = `Age ( ${user.dob.age} )`
 image.setAttribute('src', `${user.picture.large}`);
 }
 
