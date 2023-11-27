@@ -3,7 +3,7 @@
 
 
 
-######        Some of my projects      ########
+######Some of my projects from easy to hard########
                                                                             Project-1
                                                                             
 https://kadirizm1907.github.io/Myprojects_all/p-1_martin/
@@ -67,9 +67,13 @@ https://kadirizm1907.github.io/Myprojects_all/p-20_walletApp/
 
                                                                           Projects-16
 
-https://kadirizm1907.github.io/Myprojects_all/p-20_password_generater
+https://kadirizm1907.github.io/Myprojects_all/p-20_password_generater/
                                                                           
 
-                                                                           Project-16
+                                                                           Project-17
 
 https://kadirizm1907.github.io/Myprojects_all/p-17_colorChange/
+
+                                                                          Project -18
+
+https://kadirizm1907.github.io/Myprojects_all/p-21_randomUserData/
