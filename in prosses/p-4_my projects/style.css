@@ -52,24 +52,25 @@ nav .nav {
   color: #3e6d51db;
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
-  outline: 3px solid #bca3ac;
-  outline-offset: 0.3rem;
 }
-article {
+.article {
   position: relative;
   display: flex;
+  margin: 10px;
+  background-color: #bca3ac;
+  border-radius: 15px;
+ 
   
 }
-article div {
+figure{
+    width: 50%;
+}
+.article div {
   position: relative;
   top: 5rem;
   left: 12rem;
-  /* font-size: 2rem;
-  border-radius: 2px 9px 9px 7px;
-  background-color: #bca3ac;
-  padding: 2rem; */
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
   background:
     repeating-conic-gradient(#00f 0 3%, #0000 0 11%),
     repeating-conic-gradient(#0000 0 5%, #00f 0 7%) 50% / 60% 60%,
@@ -80,36 +81,58 @@ article div {
   background-repeat: no-repeat;
   filter: blur(20px) contrast(50);
   box-shadow: 0 0 0 20px #fff;
-  opacity: 0.1;
-  
+  opacity: 0.4;
 
 }
-figure{
-   
-    
-}
-.slogan1 {
-    color: rebeccapurple;
+
+figure button{
+    color: #3e6d51db;
+    background-color: #bca3ac;
     position: absolute;
-    top: 17rem;
-    left: 78rem;
-    font-size: 3rem;
-    font-family: "Alfa Slab One", serif;
-    font-weight: 400;
-}
-.subslogan1 {
-    color: rebeccapurple;
-    position: absolute;
-    top: 27rem;
-    left: 76rem;
+    top: 19rem;
+    left: 82rem;
     font-size: 2rem;
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
+    padding: 0.6rem;text-decoration: none;
+    border: none;
+    border-radius: 18% 82% 20% 80% / 68% 24% 76% 32%  ;
+    cursor: pointer;
+    
 }
-article img {
+
+
+.article img {
   width: 50%;
   border-radius: 15px;
   margin: 0.5rem;
   position: relative;
+  outline: 4px solid #fbfbfb;
+  outline-offset: 0.5rem;
   
+}
+.pro .prolang > img{
+    width: 20rem;
+    
+}
+.prolang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.prolang span > i{
+    align-items: center;
+    justify-content: center;
+    color: #800000;
+    margin-right: 1.5rem;
+    font-size: 3.5rem;
+}
+span[class="pname"]{
+    font-size: 2.5rem;
+    color: mediumslateblue;
+}
+p[class="pname"]{
+    color: #800000;
+    font-size: 1.5rem;
 }
