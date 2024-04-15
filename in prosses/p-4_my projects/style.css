@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
+header {flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,14 +14,14 @@ header {
   outline: 5px solid #9094bc;
   outline-offset: 0.3rem;
 }
-header a img {
+header a img {flex-wrap: wrap;
   width: 8rem;
   margin: 0.5em;
   outline: 5px solid #9094bc;
   border-radius: 15px;
   outline-offset: 0.3rem;
 }
-header div > a {
+header div > a {flex-wrap: wrap;
   margin: 0.7rem;
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
@@ -30,18 +30,18 @@ header div > a {
   text-decoration: none;
   border-bottom: 4px solid #800000;
 }
-nav {
+nav {flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.nav {
+.nav {flex-wrap: wrap;
   width: auto;
   font-weight: 900;
   font-size: 2.5rem;
   text-decoration: none;
 }
-nav .nav {
+nav .nav {flex-wrap: wrap;
   background-color: #bca3ac;
   margin: 0.5rem;
   padding: 0.5rem;
@@ -54,6 +54,7 @@ nav .nav {
   font-weight: 400;
 }
 .article {
+    
   position: relative;
   display: flex;
   margin: 10px;
@@ -62,7 +63,7 @@ nav .nav {
  
   
 }
-figure{
+figure{flex-wrap: wrap;
     width: 50%;
 }
 .article div {
@@ -98,7 +99,7 @@ figure button{
     border: none;
     border-radius: 18% 82% 20% 80% / 68% 24% 76% 32%  ;
     cursor: pointer;
-    
+    flex-wrap: wrap;
 }
 
 
@@ -111,28 +112,56 @@ figure button{
   outline-offset: 0.5rem;
   
 }
+.pro{
+    width: 100%;
+    padding: 0.2rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
 .pro .prolang > img{
-    width: 20rem;
+    width: 100%;
+    margin-bottom: 0.3rem;
     
 }
 .prolang{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
 }
 .prolang span > i{
-    align-items: center;
-    justify-content: center;
     color: #800000;
     margin-right: 1.5rem;
     font-size: 3.5rem;
 }
 span[class="pname"]{
-    font-size: 2.5rem;
+    width: 100%;
+    font-size: 1.5rem;
     color: mediumslateblue;
+    text-wrap: wrap;
+    text-align: center;
 }
 p[class="pname"]{
+    width: 100%;
     color: #800000;
     font-size: 1.5rem;
+    text-wrap: wrap;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+.pro .div1{
+    width: 35rem;
+    height: 35rem;
+    outline: 3px solid black;
+    outline-offset: 5px;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
