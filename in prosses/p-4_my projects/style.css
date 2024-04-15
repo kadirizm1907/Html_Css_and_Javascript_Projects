@@ -1,28 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1rem;
-    background-color: aquamarine;
-    font-weight: bold;
-    font-size: 2rem;
-    border-radius: 15px;
-    outline: 5px solid blue;
-    outline-offset: 0.3rem;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  background-color: #d8d6bf;
+  font-size: 2rem;
+  border-radius: 15px;
+  outline: 5px solid #9094bc;
+  outline-offset: 0.3rem;
+}
+header a img {
+  width: 8rem;
+  margin: 0.5em;
+  outline: 5px solid #9094bc;
+  border-radius: 15px;
+  outline-offset: 0.3rem;
+}
+header div > a {
+  margin: 0.7rem;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: oblique;
+  color: #800000;
+  text-decoration: none;
+  border-bottom: 4px solid #800000;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  width: auto;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+nav .nav {
+  background-color: #bca3ac;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  color: #3e6d51db;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  outline: 3px solid #bca3ac;
+  outline-offset: 0.3rem;
+}
+article {
+  position: relative;
+  display: flex;
+  
+}
+article div {
+  position: relative;
+  top: 5rem;
+  left: 12rem;
+  /* font-size: 2rem;
+  border-radius: 2px 9px 9px 7px;
+  background-color: #bca3ac;
+  padding: 2rem; */
+  width: 500px;
+  height: 500px;
+  background:
+    repeating-conic-gradient(#00f 0 3%, #0000 0 11%),
+    repeating-conic-gradient(#0000 0 5%, #00f 0 7%) 50% / 60% 60%,
+    repeating-conic-gradient(#0000 0 7%, #00f 0 9%) 50% / 70% 70%,
+    repeating-conic-gradient(#0000 0 11%, #00f 0 13%) 50% / 80% 80%,
+    radial-gradient(#00f 22%, #0000 0),
+    #fff;
+  background-repeat: no-repeat;
+  filter: blur(20px) contrast(50);
+  box-shadow: 0 0 0 20px #fff;
+  opacity: 0.1;
+  
 
 }
-header a img{
-    width: 8rem;
-    margin: 0.7em;
-    outline: 5px solid blue;
-    border-radius: 15px;
-    outline-offset: 0.3rem;
+figure{
+   
+    
 }
-header div > a{
-    margin: 0.7rem;
+.slogan1 {
+    color: rebeccapurple;
+    position: absolute;
+    top: 17rem;
+    left: 78rem;
+    font-size: 3rem;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+}
+.subslogan1 {
+    color: rebeccapurple;
+    position: absolute;
+    top: 27rem;
+    left: 76rem;
+    font-size: 2rem;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+}
+article img {
+  width: 50%;
+  border-radius: 15px;
+  margin: 0.5rem;
+  position: relative;
+  
 }
