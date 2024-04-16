@@ -252,11 +252,11 @@ label{
   margin: auto;
   display: block;
 }
-h2{
+h2[id="fot"]{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: .5rem;
   
 }
 .message{
@@ -287,4 +287,7 @@ footer{
   width: 98%;
   box-sizing: border-box;
   background-color: #efebce;
+}
+footer + div{
+  padding-top: 1.5rem;
 }
