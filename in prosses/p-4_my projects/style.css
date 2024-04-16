@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 header {flex-wrap: wrap;
   display: flex;
@@ -15,7 +16,7 @@ header {flex-wrap: wrap;
   outline-offset: 0.3rem;
 }
 header a img {flex-wrap: wrap;
-  width: 8rem;
+  width: 5rem;
   margin: 0.5em;
   outline: 5px solid #9094bc;
   border-radius: 15px;
@@ -37,6 +38,10 @@ nav {flex-wrap: wrap;
   position: sticky;
   top: 10px;
   z-index: 99;
+  background-color: #efebce;
+  border-radius: 15px;
+  width: 99%;
+  margin-left: 0.5rem;
 }
 .nav {flex-wrap: wrap;
   width: auto;
@@ -45,14 +50,14 @@ nav {flex-wrap: wrap;
   text-decoration: none;
 }
 nav .nav {flex-wrap: wrap;
-  background-color: #bca3ac;
+  background-color: #a3a380;
   margin: 0.5rem;
   padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  color: #3e6d51db;
+  color: #124928db;
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
 }
@@ -270,14 +275,16 @@ h2{
   justify-content: center;
 }
 #follow{
-  font-size: 3rem;
-  color: #bca3ac;
+  font-size: 8rem;
+  color: #bb8588;
   margin-top: 1rem;
+  cursor: pointer;
 }
 footer{
-  border: 3px solid red;
-  border-radius: 15px;
+  
+  border-radius:25px 25px 0 0 ;
   margin: 1rem;
   width: 98%;
   box-sizing: border-box;
+  background-color: #efebce;
 }
