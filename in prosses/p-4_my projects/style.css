@@ -173,6 +173,7 @@ p[class="pname"]{
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
+    cursor: pointer;
    
 }
 .pro div{
