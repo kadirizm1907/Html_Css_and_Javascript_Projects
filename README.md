@@ -3,10 +3,10 @@
 
 
 
-#     Some of my projects from easy to hard   #
+#  :arrow_down::arrow_down::arrow_down:   Some of my projects from easy to hard  :arrow_down::arrow_down::arrow_down:  #
 ##### HTML, CSS, JAVASCRIPT #####
 
-| Projects by using HTML and CSS  | Projects by using Javascript |
+| :dart: Projects by using HTML and CSS  | :dart: Projects by using Javascript |
 | ---                             | ---                          |
 | [Martin-page](https://kadirizm1907.github.io/Html_Css_and_Javascript_Projects/p-1_martin/) | [RandomUser-page](https://kadirizm1907.github.io/Html_Css_and_Javascript_Projects/p-21_randomUserData/) |
 | [Netflix-page](https://kadirizm1907.github.io/Html_Css_and_Javascript_Projects/p-2_Netflix/) | [Wallet-App](https://kadirizm1907.github.io/Html_Css_and_Javascript_Projects/p-20_walletApp/) |
