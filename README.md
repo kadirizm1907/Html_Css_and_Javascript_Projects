@@ -3,16 +3,15 @@
 
 
 
-######Some of my projects from easy to hard########
-                                                                            Project-1
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-1_martin/
+#     Some of my projects from easy to hard   #
 
-                                                                            Project-2
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-2_Netflix/
+## Projects by using HTML and CSS ##
 
-                                                                            Project-3
+#### [Martin-page](https://kadirizm1907.github.io/Myprojects_all/p-1_martin/) ####
+                                                                   
+[Netflix-page](https://kadirizm1907.github.io/Myprojects_all/p-2_Netflix/)
+
+
 
                                                                                                                                                      
 https://kadirizm1907.github.io/Myprojects_all/p-3_clarusway_roads/
