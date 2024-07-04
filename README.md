@@ -26,8 +26,8 @@ https://kadirizm1907.github.io/Myprojects_all/p-6_NScode/
 https://kadirizm1907.github.io/Myprojects_all/p-9_team_website/
 
                                                                             Project-6
+
                                                                             
-https://https://kadirizm1907.github.io/Age_stage/
 
                                                                             Project-7
                                                                             
