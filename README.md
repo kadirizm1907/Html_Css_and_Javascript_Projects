@@ -3,77 +3,36 @@
 
 
 
-######Some of my projects from easy to hard########
-                                                                            Project-1
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-1_martin/
+#     Some of my projects from easy to hard   #
+##### HTML, CSS, JAVASCRIPT #####
 
-                                                                            Project-2
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-2_Netflix/
+## Projects by using HTML and CSS ##
 
-                                                                            Project-3
-
+[Martin-page](https://kadirizm1907.github.io/Myprojects_all/p-1_martin/)
+                                                                   
+[Netflix-page](https://kadirizm1907.github.io/Myprojects_all/p-2_Netflix/)
                                                                                                                                                      
-https://kadirizm1907.github.io/Myprojects_all/p-3_clarusway_roads/
-
-                                                                            Project-4
+[ClaruswayRoad-page](https://kadirizm1907.github.io/Myprojects_all/p-3_clarusway_roads/)                          
                                                                             
-https://kadirizm1907.github.io/Myprojects_all/p-6_NScode/
-
-                                                                            Project-5
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-9_team_website/
-
-                                                                            Project-6
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-10_ages-stage/
-
-                                                                            Project-7
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-12_campingStore
-
-                                                                            Project-8
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/arrays/
-
-                                                                            Project-9
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/Grid/
-
-                                                                            Project-10
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/ios_calculater/
-
-                                                                            Project-11
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/mediaQuery
-
-                                                                            Project-12
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/transform/
-
-                                                                            Project-13
-                                                                            
-https://kadirizm1907.github.io/Myprojects_all/p-13_teamBlok/
-
-                                                                            Project-14
-
-https://kadirizm1907.github.io/Myprojects_all/p-21_randomUserData/
-
-                                                                            Project-15
-
-https://kadirizm1907.github.io/Myprojects_all/p-20_walletApp/
-
-                                                                          Projects-16
-
-https://kadirizm1907.github.io/Myprojects_all/p-20_password_generater/
+[Hamburger-menu](https://kadirizm1907.github.io/Myprojects_all/p-6_NScode/)
+                                                                           
+[Team-webpage](https://kadirizm1907.github.io/Myprojects_all/p-9_team_website/)
                                                                           
+[CampingStore-page](https://kadirizm1907.github.io/Myprojects_all/p-12_campingStore/)
+                                                                       
+[Calculater-overwiew](https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/ios_calculater/)    
 
-                                                                           Project-17
+[MediaQuery-sample](https://kadirizm1907.github.io/Myprojects_all/Scribbling_part/mediaQuery/) 
 
-https://kadirizm1907.github.io/Myprojects_all/p-17_colorChange/
+[TeamBlok-webpage](https://kadirizm1907.github.io/Myprojects_all/p-13_teamBlok/)
 
-                                                                          Project -18
 
-https://kadirizm1907.github.io/Myprojects_all/p-21_randomUserData/
+## Projects by using Javascript ##
+
+[RandomUser-page](https://kadirizm1907.github.io/Myprojects_all/p-21_randomUserData/)
+
+[Wallet-App](https://kadirizm1907.github.io/Myprojects_all/p-20_walletApp/)
+
+[Password-Generater](https://kadirizm1907.github.io/Myprojects_all/p-20_password_generater/)
+
+[Color-Generater](https://kadirizm1907.github.io/Myprojects_all/p-17_colorChange/)
